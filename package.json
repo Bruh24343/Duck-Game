@@ -1,0 +1,26 @@
+{
+  "name": "duck_32game",
+  "main": "main.js",
+  "productName": "Duck game",
+  "description": "Duck game",
+  "author": "",
+  "version": "1.0.0",
+  "dependencies": {
+    
+    "@electron/remote": "^2.0.8"
+  },
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-builder"
+  },
+  "devDependencies": {
+    "electron": "18.2.2",
+    "electron-builder": "22.11.11"
+  },
+  "build": {
+    "appId": "com.firith.studio.duck",
+    "directories": {
+      "buildResources": "buildResources"
+    }
+  }
+}
